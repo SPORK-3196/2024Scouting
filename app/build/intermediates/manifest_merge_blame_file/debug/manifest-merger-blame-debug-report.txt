@@ -1,0 +1,109 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.teamsporkpitscouting"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:4:5-67
+11-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:5:5-81
+12-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:5:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:6:5-80
+13-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:6:22-77
+14    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+14-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:7:5-82
+14-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:7:22-79
+15
+16    <application
+16-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:9:5-36:19
+17        android:allowBackup="true"
+17-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:10:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\girra\.gradle\caches\transforms-3\044efa5003bafaae5cec776523727751\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="true"
+21        android:icon="@mipmap/ic_launcher_spork"
+21-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:11:9-49
+22        android:label="@string/app_name"
+22-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:12:9-41
+23        android:requestLegacyExternalStorage="true"
+23-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:13:9-52
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:14:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:15:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.TeamSPORKPitScouting" >
+27-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:16:9-58
+28        <activity
+28-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:17:9-19:40
+29            android:name="com.example.teamsporkpitscouting.MainActivity"
+29-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:18:13-41
+30            android:exported="false" />
+30-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:19:13-37
+31        <activity
+31-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:20:9-23:40
+32            android:name="com.example.teamsporkpitscouting.SecondActivity"
+32-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:21:13-43
+33            android:exported="false"
+33-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:23:13-37
+34            android:parentActivityName="com.example.teamsporkpitscouting.MainActivity" />
+34-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:22:13-55
+35        <activity
+35-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:24:9-32:20
+36            android:name="com.example.teamsporkpitscouting.opening_page"
+36-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:25:13-41
+37            android:exported="true" >
+37-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:26:13-36
+38            <intent-filter>
+38-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:27:13-31:29
+39                <action android:name="android.intent.action.MAIN" />
+39-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:28:17-69
+39-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:28:25-66
+40
+41                <category android:name="android.intent.category.LAUNCHER" />
+41-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:30:17-77
+41-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:30:27-74
+42            </intent-filter>
+43        </activity>
+44        <activity android:name="com.example.teamsporkpitscouting.pit_scouting" />
+44-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:33:9-50
+44-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:33:19-47
+45        <activity android:name="com.example.teamsporkpitscouting.strategy" />
+45-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:34:9-46
+45-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:34:19-43
+46        <activity android:name="com.example.teamsporkpitscouting.pit_issue_log" />
+46-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:35:9-51
+46-->C:\Users\girra\Downloads\2023-Scouting\app\src\main\AndroidManifest.xml:35:19-48
+47
+48        <provider
+48-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+49            android:name="androidx.startup.InitializationProvider"
+49-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+50            android:authorities="com.example.teamsporkpitscouting.androidx-startup"
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+51            android:exported="false" >
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+52            <meta-data
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+53                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+54                android:value="androidx.startup" />
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\girra\.gradle\caches\transforms-3\6c960a190ba4255510c04d260169d251\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+55            <meta-data
+55-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\girra\.gradle\caches\transforms-3\3d0db5a5bc1f3d6f24e2cb257e48b08a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+56                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+56-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\girra\.gradle\caches\transforms-3\3d0db5a5bc1f3d6f24e2cb257e48b08a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+57                android:value="androidx.startup" />
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\girra\.gradle\caches\transforms-3\3d0db5a5bc1f3d6f24e2cb257e48b08a\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+58        </provider>
+59    </application>
+60
+61</manifest>
